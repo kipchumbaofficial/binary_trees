@@ -13,7 +13,7 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 	{
 		if (node->parent)
 		{
-			if (node->left == NULL && node->right== NULL)
+			if (node->left == NULL && node->right == NULL)
 				i = 1;
 		}
 	}
